@@ -6,7 +6,7 @@
 #   -- Author:      Lozy
 #
 
-REQUEST_SERVER="https://raw.github.com/Lozy/danted/master"
+REQUEST_SERVER="https://raw.github.com/gaocuo/danted/master"
 SCRIPT_SERVER="https://public.sockd.info"
 SYSTEM_RECOGNIZE=""
 
