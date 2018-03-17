@@ -5,7 +5,7 @@
 
 VERSION="1.3.2"
 INSTALL_FROM="compile"
-DEFAULT_PORT="2016"
+DEFAULT_PORT="7086"
 DEFAULT_USER=""
 DEFAULT_PAWD=""
 WHITE_LIST_NET=""
@@ -116,7 +116,7 @@ generate_config_bottom(){
 pass {
         from: 0.0.0.0/0 to: 0.0.0.0/0
         protocol: tcp udp
-        method: pam
+        method: none
         log: connect disconnect
 }
 block {
